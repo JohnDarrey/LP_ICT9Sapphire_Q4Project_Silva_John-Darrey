@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Main Page</title>
+	<style type="text/css">
+		body{
+			text-align: center;
+
+		}
+		h1{
+			font-family: Arial;
+			font-size: 35px;
+			color: #c0c4c5;
+		}
+		button{
+			height: 80px;
+			font-size: 30px;
+			width: 500px;
+			color: white;
+			background-color: #c0c4c5;
+		}
+		img{
+			width: 400px;
+			height: 400px;
+		}
+		p{
+			font-family: Arial;
+			font-size: 20px;
+			color: #c0c4c5;
+		}
+		#comm{
+			width: 80px;
+			height: 40px;
+			font-size: 15px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Welcome User</h1>
+
+
+
+	<img src="https://i.pinimg.com/564x/d4/51/07/d45107448876c094266aeef6963d90c1.jpg">
+
+	<br><br>
+
+	<p>Name: John Darrey Silva</p>
+
+	<p>Section: 9 Sapphire</p>
+
+	<p>Past Projects:</p>
+
+	<a href="LP_ICT9S_Q1Project_Silva_John Darrey.html"><button type="Submit" onclick="login()">1st Quarter Project</button></a>
+	<br><br>
+    <a href="2nd QTR Project.html"><button type="Submit" onclick="login()">2nd Quarter project</button></a>
+    <br><br>	
+    <a href="3nd QTR Project.html"><button type="Submit" onclick="login()">3rd Quarter project</button></a>
+    <br><br>
+
+    <p>Comments and Suggestions</p>
+
+    <script type="text/javascript">
+        function comment(){
+            let comment = document.getElementById("comment").value;
+            window.alert("Sent")
+        }
+    </script>
+
+    <form>
+		<input type="text" id="comment">
+	</form>
+
+	<br>
+
+    <form>
+		<button type="Submit" onclick="comment()" id="comm">Submit</button> 
+	</form>
+</body>
+</html>	
